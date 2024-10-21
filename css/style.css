@@ -19,14 +19,20 @@ img {
 }
 
 
+
+.tasto-home {
+  display: none;
+}
+
+
 .nav {
-  max-width: 1400;
+  max-width: 1120px;
   margin: auto;
   display: flex;
   justify-content: space-between;
   padding-top: 50px;
   font-size: 16px;
-  width: 1100px;
+  width: 1000px;
   text-decoration: none;
   position: absolute;
   top: 8%;
@@ -53,9 +59,7 @@ img {
 .hero p  {
   color: rgb(255, 255, 255);
   font-weight: bold;
- 
   text-align: center;
-  
 }
 
 
@@ -67,8 +71,6 @@ img {
   top: 30px;
   right: 300px;
   position: absolute;
-  
-   
 }
 
 .hero nav ul a {
@@ -96,13 +98,14 @@ nav ul li.button a {
   height: 40px; 
   width: 0px;
   padding: 10px;
+  font-weight: bold;
   color: #592F67;
 }
 
 .button  {
   text-decoration: none;
   place-items: center;
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 18px;
 }
 
@@ -183,7 +186,6 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
   right: 30px;
   z-index: 5;
   opacity: 0;
-  
 }
 
 
@@ -218,7 +220,7 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
   padding-top: 20px;
   font-size: clamp(2rem,8vw,8rem);
   font-size: 180px;
-  font-weight: 900;
+  font-weight: 900px;
   line-height: 100%;
   letter-spacing: 40%;
 }
@@ -241,15 +243,13 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
   margin-top: 50px;
   margin-left: 20px;
   width: 500px;
-  font-weight: 300;
+  font-weight: 300px;
   font-size: 16px;
 }
 
 .text img {
-  
   top: 3%;
 }
-
 
 
 .purplesection{ 
@@ -260,30 +260,50 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
 
 }
 
-.purplesection h1{
+.purplesection h2{
+font-size: 25px;
+width: 290px;
 color: white;
 }
 
 
 .purplesection p{
+font-size: 18px;  
 color: white;
 font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 
-.intro {
-display: flex;
-max-width: 900px;
-gap: 50px;
-margin: auto;   
-grid-template-columns: 2fr 1fr;
+.burton {
+  display: flex;
+  max-width: 900px;
+  margin: auto;
+  margin-top: 200px;
 }
 
-
-.intro p{
-max-width: 1000px;
-width: 500px;
+.burton p{
+  font-size: 18px;
+  font-family: "Inter",system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+.ruolo-mostra-p p {
+  max-width: 1000px;
+  font-weight: 300px;
+}
+
+.burton h2 {
+  font-size: 25px;
+  width: 800px;
+  color:rgb(116, 1, 116) ;   
+}
+
+.burton img{
+margin-top: 30px;
+max-width: 200px;
+margin-bottom: 50px;
+padding: 10px;
+}
+
 
 
 .card{
@@ -376,7 +396,7 @@ font-size: 36px;
   display: grid;
   place-items: center;
   padding-top: 10px;
-  font-weight: 700;
+  font-weight: 700px;
 }
 
 .buttondue:hover {
@@ -447,34 +467,38 @@ footer nav ul a:hover {
   }
 
 
-/*pagina tim burton*/
+/*pagina tim burton
 
-
-  .burton {
-      display: flex;
-      max-width: 900px;
-      margin: auto;
-      margin-top: 200px;
-      
-  }
-  .burton p{
-      font-size: 18px;
-      font-weight: 500;
-      max-width: 800px;
-      font-family: "Inter",system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
-  
-  .burton h2{
-      font-size: 25px;
-      width: 700px;
-      color:rgb(116, 1, 116) ;   
-  }
-  
-.burton img{
-  margin-top: 30px;
-  max-width: 200px;
-  margin-bottom: 50px;
+.intro {
+  max-width: 1120px;
+  margin: auto;
+  display: flex;
+  gap: 120px;
 }
+
+
+.intro p{
+max-width: 1000px;
+width: 500px;
+}
+
+*/
+
+
+.intro {
+  max-width: 1120px;
+  margin: auto;
+  display: flex;
+  gap: 120px;
+}
+
+
+.intro p{
+max-width: 1000px;
+width: 500px;
+}
+
+
  
 /* CAROSELLO */
 
@@ -656,7 +680,7 @@ footer nav ul a:hover {
 .titoli-filmografia {
   font-family: "Lexend", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 700;
+  font-weight: 700px;
   font-style: normal;
   color: #FFFFFF;
 }
@@ -664,7 +688,7 @@ footer nav ul a:hover {
 .titoli {
   font-family: "Lexend", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 700;
+  font-weight: 700px;
   font-style: normal;
   font-size: 30px;
 }
@@ -684,6 +708,8 @@ footer nav ul a:hover {
   .cards {
     position: relative;
   }
+
+  
 
 
 .button-82-pushable:hover {
@@ -1089,7 +1115,6 @@ footer nav ul a:hover {
       flex-direction: column;
   }
 
-
 .quadri img{
   max-width: 300px;
   height: 400px;
@@ -1154,14 +1179,10 @@ background-color: #592F67;
     display: block;
 
   }
-
-  /*DA CORREGGERE LINK ALLA HOME PAGE E BURGER MENU - bordo che fuori esce*/
-
-  header nav ul {
-    position: absolute;
+  .hero nav ul {
+   /* position: relative;*/
     gap: 20px;
     flex-direction: column;
-    position: absolute;
     top: 0;
     left: 0;
     opacity: 0;
@@ -1170,10 +1191,18 @@ background-color: #592F67;
     height: 100%;
     justify-content: center;
     text-align: center;
+    
+  }
+
+  .tasto-home {
+    display: contents;
   }
 
 
 
+ 
+
+  
   .nav{
     width: 100px;
   }
@@ -1224,7 +1253,7 @@ background-color: #592F67;
   max-width: 600px;
   }
 
-  .intro h1{
+  .intro h2{
   max-width: 300px;
   }
 
@@ -1236,9 +1265,11 @@ background-color: #592F67;
   .artbook{
   max-width: 300px;
   flex-direction: column;
-  top: 30px;
+  display: flex;
+  padding: 0px;
   }
-
+  
+  
   .artbook h1{
   font-size: 30px;
   text-align: center;
@@ -1414,9 +1445,6 @@ background-color: #592F67;
 .burton img{
   max-width: 150px;
   margin: 0 auto;
-  margin-top: 20px;
-  margin-bottom: 50px;
-  
 }
 
 }
