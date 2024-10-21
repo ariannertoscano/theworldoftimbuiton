@@ -19,6 +19,17 @@ img {
 }
 
 
+iframe {
+  max-width: 600px;
+  margin: 80px auto;
+  margin-right: 130px;
+  display: block;
+  width: 600px;
+  height: 415px;
+  width: 100%;
+  border-radius: 5px;
+}
+
 
 .tasto-home {
   display: none;
@@ -220,10 +231,11 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
   padding-top: 20px;
   font-size: clamp(2rem,8vw,8rem);
   font-size: 180px;
-  font-weight: 900px;
+  font-weight: 900;
   line-height: 100%;
   letter-spacing: 40%;
 }
+
 
 
 .hero .text .of{
@@ -243,7 +255,7 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
   margin-top: 50px;
   margin-left: 20px;
   width: 500px;
-  font-weight: 300px;
+  font-weight: 300;
   font-size: 16px;
 }
 
@@ -278,7 +290,8 @@ font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
   display: flex;
   max-width: 900px;
   margin: auto;
-  margin-top: 200px;
+  margin-top: 100px;
+  padding: 20px;
 }
 
 .burton p{
@@ -298,10 +311,10 @@ font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
 }
 
 .burton img{
-margin-top: 30px;
+margin-top: 50px;
 max-width: 200px;
 margin-bottom: 50px;
-padding: 10px;
+padding: 20px;
 }
 
 
@@ -396,7 +409,7 @@ font-size: 36px;
   display: grid;
   place-items: center;
   padding-top: 10px;
-  font-weight: 700px;
+  font-weight: 700;
 }
 
 .buttondue:hover {
@@ -680,7 +693,7 @@ width: 500px;
 .titoli-filmografia {
   font-family: "Lexend", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 700px;
+  font-weight: 700;
   font-style: normal;
   color: #FFFFFF;
 }
@@ -959,8 +972,8 @@ width: 500px;
 .entry img{
   max-width: 600px;
   margin: 80px auto;
-  margin-right: 250px;
-  
+  margin-right: 140px;
+  border-radius: 5px;
 }
 
 .contatti{
@@ -1040,7 +1053,7 @@ width: 500px;
   max-width: 400px;
   margin:  auto;
   padding-top: 50px;
-  margin-left: 650px;
+  margin-right: 380px;
 }
 
 
@@ -1100,7 +1113,7 @@ width: 500px;
 }
 
 .quadri img {
-  height: 300px;
+  height: 250px;
   width: 100%;
   object-fit: cover;
   display: none;
@@ -1149,7 +1162,7 @@ background-color: #592F67;
   height: 40px;
   width: 150px;
   margin: 70px auto;
-   
+  margin-left: 610px;
 }
 
 .buttontre a{
@@ -1314,6 +1327,13 @@ background-color: #592F67;
 @media (max-width:600px) {
 /*visite guidate*/ 
 
+
+.intro {
+  margin: auto;
+  display: flex;
+  gap: 30px;
+}
+
 .text h2.tit{
   font-size: 50px;
 }
@@ -1332,7 +1352,7 @@ background-color: #592F67;
   margin: 0 auto;
   max-width: 300px;
   font-size: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .burton h3{
@@ -1340,6 +1360,11 @@ background-color: #592F67;
   max-width: 300px;
   font-size: 20px;
   padding-bottom: 20px;
+}
+
+.burton {
+  display: flex;
+  margin-top: 40px;
 }
 
 .burton p{
@@ -1451,11 +1476,44 @@ background-color: #592F67;
   font-size: 15px;
 }
 
+.artbook {
+  display: flex;
+  gap: 10px;
+}
 
+.info {
+  flex-direction: column;
+  gap: 10px;
+}
 
 .burton img{
   max-width: 150px;
   margin: 0 auto;
 }
+
+.burton img{
+  max-width: 180px;
+  padding: 20px;
+  margin: 0;
+  margin-left: 70px;
+  }
+
+  .buttontre {
+    margin-left: 90px;
+  }
+ 
+
+
+  iframe {
+    max-width: 300px;
+    margin: 80px auto;
+    display: block;
+    width: 300px;
+    height: 215px;
+    width: 100%;
+  }
+
+
+
 
 }
